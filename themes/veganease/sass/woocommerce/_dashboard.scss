@@ -1,0 +1,140 @@
+.woocommerce-account {
+    header, .entry-footer {
+        display: none;
+    }
+    .woocommerce-MyAccount-navigation {
+        li , a {
+           border: none;
+       }
+    }
+}
+
+.woocommerce-MyAccount-content {
+    display: flex;
+    height: 900px;
+    @media only screen and (max-width: 800px) { 
+        flex-direction: column;
+        height: auto;
+        }
+}
+
+.my-account-dashboard {
+    width: 25%;
+    border-right: 2px solid rgba(237, 237, 237, 1);
+    text-align: center;
+    &__name {
+        font-family: $poppins;
+        font-size: 2.5rem;
+        line-height: 20px;
+        color: $coral;
+        margin-top: 1.5rem;
+        line-height: 37px;
+    }
+    img {
+        display: block;
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 2.5rem auto;
+    }
+    @media only screen and (max-width: 800px) { 
+        width: 100%;
+        border-right: 0;
+        }
+}
+
+.woocommerce-MyAccount-navigation {
+    li {
+        font-family: $poppins;
+        font-weight: 300;
+        line-height: 14px;
+        font-size: 1.2rem;
+        color: $black;
+        margin: 1.5rem 0;
+    }
+}
+
+.dashboard-grey-line {
+    background: rgba(237, 237, 237, 0.2);
+    height: 2px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.your-orders-container {
+    width: 35%;
+    border-right: 2px solid rgba(237, 237, 237, 1);
+    padding: 0 20px;
+    &__title {
+        font-family: $poppins;
+        font-size: 2.5rem;
+        line-height: 20px;
+        color: $coral;
+        margin-top: 1.5rem;
+    }
+    @media only screen and (max-width: 800px) { 
+        width: 100%;
+        border-right: 0;
+        }
+}
+
+.your-order-single {
+}
+
+.customer-order-table {
+    margin: 2rem 0;
+    border-collapse:separate; 
+  border-spacing: 0 1rem;
+    tr {
+        border-spacing: 1.5rem;
+    }
+    tr:first-child td {
+        font-family: $poppins;
+        font-size: 1.3rem;
+        color: $coral;
+        line-height: 18px;
+        font-weight: 500;
+        padding-right: 1rem;
+    }
+    td {
+        font-family: $poppins;
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: $black;
+    }
+}
+
+tr.border_bottom td {
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 1rem;
+  }
+
+  .woocommerce-MyAccount-navigation-link--orders {
+      display: none;
+  }
+
+  .your-reviews-section {
+      width: 35%;
+      padding: 0 20px;
+      &__title {
+        font-family: $poppins;
+        font-size: 2.5rem;
+        line-height: 20px;
+        color: $coral;
+        margin: 1.5rem 0;
+      }
+      &__single {
+          padding: 0.5rem;
+          margin-bottom: 1rem;
+          border-bottom: 1px solid #ededed;
+          h5 {
+              color: $gold;
+              font-family: $poppins;
+              padding-bottom: 1.2rem;
+          }
+      }
+      @media only screen and (max-width: 800px) { 
+        width: 100%;
+        }
+  }

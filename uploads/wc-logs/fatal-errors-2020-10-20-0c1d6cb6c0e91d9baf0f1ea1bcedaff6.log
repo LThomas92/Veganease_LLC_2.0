@@ -1,0 +1,28 @@
+2020-10-20T01:03:04+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 304
+
+2020-10-20T01:03:15+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 283
+
+2020-10-20T01:03:18+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 284
+
+2020-10-20T01:03:27+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 304
+
+2020-10-20T01:03:28+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 304
+
+2020-10-20T01:03:31+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 304
+
+2020-10-20T01:03:37+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 304
+
+2020-10-20T01:18:06+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php:270) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 320
+
+2020-10-20T01:18:15+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php:270) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 320
+
+2020-10-20T01:25:48+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php:270) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 320
+
+2020-10-20T03:36:27+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 338
+
+2020-10-20T03:36:52+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php:270) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 305
+
+2020-10-20T03:37:02+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php:270) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 305
+
+2020-10-20T03:37:12+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php:270) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 305
+

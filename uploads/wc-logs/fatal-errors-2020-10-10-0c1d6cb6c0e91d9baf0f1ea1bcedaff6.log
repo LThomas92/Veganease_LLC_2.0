@@ -1,0 +1,4 @@
+2020-10-10T01:17:05+00:00 CRITICAL Cannot redeclare custom_login_stylesheet() (previously declared in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php:221) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 246
+
+2020-10-10T01:22:15+00:00 CRITICAL Cannot redeclare custom_login_stylesheet() (previously declared in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php:119) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 227
+

@@ -1,0 +1,112 @@
+.woocommerce-billing-fields {
+   padding-left: 60px;
+   h3 {
+       font-family: $poppins;
+   }
+}
+
+.woocommerce-checkout-review-order-table th {
+    font-family: $poppins;
+}
+
+#customer_details {
+    width: 60%;
+    @media only screen and (max-width: 800px) { 
+        width: 100%;
+        }
+}
+
+#order_review_heading {
+    display: none;
+}
+.woocommerce-checkout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+    @media only screen and (max-width: 800px) { 
+        flex-direction: column;
+        }
+}
+
+#billing_first_name_field, #billing_last_name_field, #billing_company_field, #billing_address_1_field, #billing_city_field, #billing_postcode_field, #billing_phone_field, #billing_email_field{
+    display: block;
+    width: 100%;
+    label {
+        display: block;
+        padding-top: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+}
+
+#billing_first_name {
+    width: 80%;
+}
+
+#billing_city_field, #billing_country_field {
+    margin-top: 0.4rem;
+}
+
+.woocommerce-billing-fields input {
+    width: 80%;
+}
+
+#billing_email, #billing_phone {
+    padding: 0.1rem;
+}
+
+#billing_company_field {
+    display: none;
+}
+
+#billing_state_field{
+    display: flex;
+    flex-direction: column;
+}
+
+#billing_state span.select2 {
+    width: 60%;
+}
+
+#billing_address_1, #billing_address_2 {
+    box-shadow: none;
+    outline: none;
+}
+
+#billing_address_1 {
+    margin-bottom: 0.6rem;
+}
+
+//ADDT FIELDS 
+.woocommerce-additional-fields {
+    padding: 0 60px;
+    width: 100%;
+    h3 {
+        font-family: $poppins;
+        margin-top: 1rem;
+    }
+}
+
+#order_comments {
+    width: 100%;
+}
+
+
+.woocommerce-checkout-review-order {
+    width: 40%;
+    padding: 0 60px;
+    @media only screen and (max-width: 800px) { 
+        width: 100%;
+        }
+}
+
+#place_order {
+    background-color: $green;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    color: $white;
+    cursor: pointer;
+    display: block;
+    margin-top: 1rem;
+}

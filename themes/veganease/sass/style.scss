@@ -1,0 +1,25 @@
+//VARIABLES
+@import "./variables/fonts";
+@import "./variables/colors";
+
+@import "main";
+
+@import "header";
+@import "footer";
+
+@import "front-page";
+@import "contact";
+@import "taxonomy";
+@import "page-menu";
+@import "page-blog";
+@import "single";
+@import "about";
+@import "tag";
+@import "404";
+
+@import "./woocommerce/products-page";
+@import "./woocommerce/single-product";
+@import "./woocommerce/cart";
+@import "./woocommerce/dashboard";
+@import "./woocommerce/checkout";
+@import "./woocommerce/order";

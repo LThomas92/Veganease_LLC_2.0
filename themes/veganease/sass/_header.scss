@@ -1,0 +1,247 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../img/tan-bg.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+height: 80px;
+border-bottom: 2px solid $black;
+padding: 2rem 50px;
+@media only screen and (max-width: 800px) { 
+ background: transparent;
+  }
+  &__logo-link {
+    text-decoration: none;
+    border-bottom: none !important;
+  }
+}
+
+.profile-icon {
+  height: 2rem;
+  margin-top: -0.5rem;
+  @media only screen and (max-width: 800px) { 
+    display: none;
+    }
+}
+
+.shopping-bag {
+  height: 2rem;
+  margin-top: -0.5rem;
+  @media only screen and (max-width: 800px) { 
+    display: none;
+    }
+}
+
+.hamburger-menu {
+  display: none;
+  @media only screen and (max-width: 800px) { 
+    height: 3rem;
+  cursor: pointer;
+  margin-top: -1rem;
+  display: block;
+  margin-right: -2rem;
+    }
+}
+
+.close-btn {
+  height: 1.4rem;
+  cursor: pointer;
+}
+
+.cart_items_num {
+  z-index: 1000;
+  position: relative;
+  top: -4px;
+    left: -19px;
+    color: white;
+    background: #44a6c6;
+    border-radius: 50%;
+    padding: 0.2rem 0.6rem;
+    @media only screen and (max-width: 800px) { 
+      display: none;
+      }
+}
+
+.nav-margins {
+  margin: 0 50px;
+}
+
+.menu-menu-1-container {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    li {
+      text-transform: uppercase;
+      margin-right: 1rem;
+      font-family: $din;
+      @media only screen and (max-width: 800px) { 
+        display: none;
+        }
+    }
+  }
+}
+
+.header-right-menu-container {
+.header-right-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+    a {
+      margin-right: 1rem;
+      font-family: $din;
+      text-transform: uppercase;
+    }
+}
+}
+
+.login-btn {
+  @media only screen and (max-width: 800px) { 
+    display: none;
+    }
+}
+
+.menu-image {
+  height: 1.3rem !important;
+  margin: 0;
+  padding:0;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+.search-icon {
+  margin-right: 1rem;
+  height: 1.4rem;
+  cursor: pointer;
+  @media only screen and (max-width: 800px) { 
+    display: none;
+    }
+}
+
+.nav-search-form {
+  display: none;
+  margin-right: 1rem;
+  @media only screen and (max-width: 800px) { 
+    display: none;
+    }
+}
+
+.search-field {
+  outline: 0;
+  padding: 0.7rem 1rem;
+  font-family: $poppins;
+  font-size: 12px;
+  margin-top: -1rem;
+  @media only screen and (max-width: 800px) { 
+    display: none;
+    }
+}
+
+.site-header__links-search {
+  display: flex;
+}
+
+
+//MOBILE MENU 
+.menu-overlay-container {
+  display: none;
+  @media only screen and (max-width: 800px) {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: $off-white;
+    overflow: auto;
+    animation: moveInRight 1s ease-in;
+}
+}
+
+.mobile-margins {
+  margin: 0 20px;
+}
+
+.mobile-menu-container {
+  display: flex;
+  flex-direction: column;
+  &__header {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.mobile-logo {
+display: none;
+  @media only screen and (max-width: 800px) {
+    display: block !important;
+    height: 4rem;
+    margin-top: -1rem;
+  }
+}
+
+.mobile-navigation ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  list-style-type: none;
+  &:last-child {
+    margin-top: 0.5rem;
+  }
+  li {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    font-family: $din;
+    text-transform: uppercase;
+  }
+}
+
+.mobile-navigation .header-right-menu {
+  .login-btn, .cart_items_num, .shopping-bag {
+    @media only screen and (max-width: 800px) {
+    display: block !important;
+  }
+  }
+}
+
+.mobile-navigation .search-field {
+  @media only screen and (max-width: 800px) {
+    display: block !important;
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
+
+.mobile-navigation .header-right-menu {
+  margin-top: -2rem;
+}
+
+.mobile-navigation .header-right-menu {
+  .login-btn {
+    font-size: 2.5rem;
+    font-family: $din;
+    text-transform: uppercase;
+    margin-top: 0.7rem;
+  }
+    .cart_items_num {
+      z-index: 1000;
+      position: relative;
+      top: -23px;
+        left: 11px;
+        color: white;
+        background: #44a6c6;
+        border-radius: 50%;
+        text-align: center;
+        width: 25px;
+        height: auto;
+    }
+  }
+
+  [aria-current="page"] {
+    padding-bottom: 2px;
+    border-bottom: 1px solid $coral;
+    transition: all 200ms;
+  }

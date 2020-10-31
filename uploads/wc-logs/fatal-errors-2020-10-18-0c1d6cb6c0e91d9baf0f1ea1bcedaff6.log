@@ -1,0 +1,51 @@
+2020-10-18T12:37:21+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php on line 31
+
+2020-10-18T12:37:43+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php on line 31
+
+2020-10-18T12:38:51+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php on line 31
+
+2020-10-18T12:39:11+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php on line 31
+
+2020-10-18T12:39:21+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php on line 31
+
+2020-10-18T12:39:31+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php on line 31
+
+2020-10-18T12:56:43+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php:29
+Stack trace:
+#0 /Applications/MAMP/htdocs/veganease/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/veganease/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/veganease/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php on line 29
+
+2020-10-18T18:05:53+00:00 CRITICAL Uncaught Error: Call to undefined function http://0.gravatar.com/avatar/c86060f9340049f4268636db6f57b5da?s=450&r=g() in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php:37
+Stack trace:
+#0 /Applications/MAMP/htdocs/veganease/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/veganease/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/veganease/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php on line 37
+
+2020-10-18T18:07:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_avatar(), 0 passed in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php on line 33 and at least 1 expected in /Applications/MAMP/htdocs/veganease/wp-includes/pluggable.php:2608
+Stack trace:
+#0 /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/page-blog.php(33): get_avatar()
+#1 /Applications/MAMP/htdocs/veganease/wp-includes/template-loader.php(106): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/veganease/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/veganease/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/veganease/wp-includes/pluggable.php on line 2608
+
+2020-10-18T20:07:05+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 279
+
+2020-10-18T20:17:41+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 267
+
+2020-10-18T20:17:46+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 267
+
+2020-10-18T20:17:50+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 267
+
+2020-10-18T20:17:55+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 267
+
+2020-10-18T20:18:07+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 268
+
+2020-10-18T20:18:08+00:00 CRITICAL syntax error, unexpected end of file in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 268
+

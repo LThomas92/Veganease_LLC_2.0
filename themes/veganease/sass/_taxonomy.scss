@@ -1,0 +1,74 @@
+.taxonomy-single {
+    display: flex;
+    img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 3px;
+    }
+    &__text-container {
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    h4 {
+        font-family: $din;
+        font-size: 24px;
+        color: $dark-grey;
+        display: block;
+    }
+    &__tags {
+        display: flex;
+        list-style-type: none;
+        li {
+            margin-right: 0.8rem;
+            font-family: $poppins;
+            font-size: 16px;
+            color: $gold;
+            cursor: pointer;
+        }
+    }
+    &__read-more {
+        display: inline-block;
+        background-color: $black;
+        color: $off-white;
+        padding: 1rem 1.4rem;
+        border-radius: 2px;
+        font-family: $poppins;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+    }
+    &__product-btn {
+        display: inline-block;
+        background-color: $black;
+        color: $off-white;
+        padding: 1rem 1.4rem;
+        border-radius: 2px;
+        font-family: $poppins;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.taxonomy-container {
+    margin-top: 4rem;
+}
+
+.search-title {
+    font-family: $din;
+    font-size: 35px;
+    margin-top: 1.2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid $black;
+}
+
+.search-term {
+    color: $gold;
+}
+

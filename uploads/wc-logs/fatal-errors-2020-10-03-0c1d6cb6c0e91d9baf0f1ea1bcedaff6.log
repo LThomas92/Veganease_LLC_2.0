@@ -1,0 +1,9 @@
+2020-10-03T02:34:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/woocommerce/single-product.php on line 62 and at least 2 expected in /Applications/MAMP/htdocs/veganease/wp-includes/plugin.php:403
+Stack trace:
+#0 /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/woocommerce/single-product.php(62): add_action('woocommerce_sin...')
+#1 /Applications/MAMP/htdocs/veganease/wp-includes/template-loader.php(106): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/veganease/wp-blog-header.php(19): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/veganease/index.php(17): require('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/veganease/wp-includes/plugin.php on line 403
+

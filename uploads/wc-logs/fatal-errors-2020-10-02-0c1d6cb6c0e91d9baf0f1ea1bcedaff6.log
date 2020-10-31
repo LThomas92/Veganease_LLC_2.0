@@ -1,0 +1,12 @@
+2020-10-02T01:55:13+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php:246
+Stack trace:
+#0 /Applications/MAMP/htdocs/veganease/wp-settings.php(508): include()
+#1 /Applications/MAMP/htdocs/veganease/wp-config.php(90): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/veganease/wp-load.php(37): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/veganease/wp-blog-header.php(13): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/veganease/index.php(17): require('/Applications/M...')
+#5 {main}
+  thrown in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 246
+
+2020-10-02T02:01:28+00:00 CRITICAL Cannot declare class WC_Product_Addons, because the name is already in use in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/functions.php on line 286
+

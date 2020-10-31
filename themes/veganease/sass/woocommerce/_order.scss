@@ -1,0 +1,27 @@
+.woocommerce-order-received {
+    .entry-header {
+        margin-top: 1.5rem;
+
+    }
+    .woocommerce-order {
+    }
+    .woocommerce-order-overview {
+        list-style: none;
+    }
+
+}
+
+.woocommerce-order-custom-container {
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (max-width: 800px) { 
+        flex-direction: column;
+        }
+    margin-top: 2.5rem;
+    .woocommerce-order-details {
+        margin: 1.2rem 0;
+    }
+    .woocommerce-customer-details {
+        margin: 1.2rem 0;
+    }
+}

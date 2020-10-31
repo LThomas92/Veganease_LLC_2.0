@@ -1,0 +1,179 @@
+.page-contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page-header {
+    background-color: $gold;
+    width: 100%;
+    height: auto;
+    h3 {
+        font-family: $din;
+        font-size: 4rem;
+        color: $off-white;
+        margin-left: 4rem;
+        padding-top: 2rem;
+    }
+}
+
+.contact-page-header-box {
+    display: flex;
+    h3 {
+        margin-right: 4rem;
+    }
+}
+
+.contact-page-bottom {
+    background-color: $white;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+}
+
+.contact-form-container {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    z-index: 5;
+    position: relative;
+    top: 80px;
+    border-radius: 4px;
+    -webkit-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 16px -8px rgba(0,0,0,0.75);
+    #gform_wrapper_1 {
+        flex: 0 0 60%;
+        background-color: $off-white;
+        padding: 20px 50px;
+        @media only screen and (max-width: 800px) { 
+            width: 100%;
+            padding: 0 20px;
+            }
+            @media (min-width: 320px) and (max-width: 480px) {
+                width: 100%;
+                padding: 0 20px;
+              }
+    }
+    .gform_wrapper {
+        margin: 0 !important;
+        padding: 0 20px;
+    }
+    #gform_submit_button_1 {
+        border: none;
+        padding: 1rem 1.2rem;
+        background-color: $black;
+        color: $white;
+        cursor: pointer;
+    }
+    #gform_confirmation_message_1 {
+        font-family: $poppins;
+        font-size: 0.9rem;
+        font-weight: 300;
+        width: 100%;
+    }
+    &__text {
+        background-color: $coral;
+       flex: 1;
+        @media only screen and (max-width: 800px) { 
+            width: 100%;
+            }
+            @media (min-width: 320px) and (max-width: 480px) {
+                width: 100%;
+              }
+        h3 {
+            color: $off-white;
+            text-align: center;
+            font-size: 1.4rem;
+            font-weight: 600;
+            padding: 1rem 0;
+            font-family: $poppins;
+            margin-left: 0;
+        }
+        &__info {
+            margin: 1rem 0;
+            display: flex;
+            flex-direction: column;
+        }
+        &__single {
+            display: flex;
+            margin: 2rem 0;
+            .email-text {
+                border-bottom: 1px solid $off-white;
+            }
+            a {
+                color: $white;
+                font-family: $poppins;
+                font-size: 1rem;
+                font-weight: 400;
+                text-decoration: none;
+            }
+            p {
+                color: $white;
+                font-family: $poppins;
+                font-size: 1rem;
+                font-weight: 400;
+            }
+            .email-icon {
+                height: 1.3rem;
+                margin-right: 3rem;
+            }
+            .phone-icon {
+                height: 1.3rem;
+                margin-right: 3rem;
+            }
+
+            .location-icon {
+                height: 1.3rem;
+                margin-right: 3rem;
+            }
+       
+        }
+        &__social {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 2rem;
+            img {
+                    height: 1.3rem;
+            }
+        }
+    }
+    @media only screen and (max-width: 800px) { 
+        flex-direction: column;
+        width: 100%;
+        }
+}
+
+.paper-plane {
+    height: 8rem;
+    @media only screen and (max-width: 800px) { 
+      display: none;
+
+        }
+}
+
+
+.hours-of-operation {
+    h4 {
+        color: $off-white;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 600;
+        padding: 1rem 0;
+        font-family: $poppins;
+    }
+    ul {
+        list-style: none;
+        li {
+            display: flex;
+            justify-content: space-between;
+            p {
+                color: $off-white;
+            }
+        }
+    }
+}
+
+
+.contact-margins {
+    margin: 0 50px;
+}

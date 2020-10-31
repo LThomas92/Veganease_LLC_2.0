@@ -1,0 +1,35 @@
+.error-404 {
+    &__content {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5rem;
+        h3 {
+            font-family: $din;
+            font-size: 10rem;
+            background: -webkit-linear-gradient($coral, $gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            border-right: 3px solid $black;
+            padding-right: 1rem;
+        }
+    }
+    &__info{
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.search-form-404 {
+    text-align: center;
+    margin: 2rem 0;
+    .search-field {
+        width: 80%;
+        @media only screen and (max-width: 800px) {
+            display: block;
+            width: 100%;
+          }
+    }
+}

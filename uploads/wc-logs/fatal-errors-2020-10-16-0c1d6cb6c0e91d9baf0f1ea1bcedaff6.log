@@ -1,0 +1,32 @@
+2020-10-16T03:59:28+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/woocommerce/cart/cart.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/veganease/wp-includes/shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/veganease/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_ in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/woocommerce/cart/cart.php on line 40
+
+2020-10-16T03:59:43+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/woocommerce/cart/cart.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /Applications/MAMP/htdocs/veganease/wp-includes/shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /Applications/MAMP/htdocs/veganease/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_ in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/woocommerce/cart/cart.php on line 40
+
+2020-10-16T04:00:38+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/wc-template-functions.php:1614
+Stack trace:
+#0 /Applications/MAMP/htdocs/veganease/wp-includes/class-wp-hook.php(287): woocommerce_template_single_add_to_cart('')
+#1 /Applications/MAMP/htdocs/veganease/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/veganease/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/woocommerce/cart/cart.php(40): do_action('woocommerce_sin...')
+#4 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#6 /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/class-wc-shortco in /Applications/MAMP/htdocs/veganease/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1614
+
+2020-10-16T04:15:37+00:00 CRITICAL syntax error, unexpected 'wc_get_formatted_cart_item_dat' (T_STRING), expecting ';' or ',' in /Applications/MAMP/htdocs/veganease/wp-content/themes/veganease/woocommerce/cart/cart.php on line 82
+

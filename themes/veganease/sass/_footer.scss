@@ -1,0 +1,58 @@
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../img/tan-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 2rem 50px;
+  flex-shrink: 0 !important;
+  @media only screen and (max-width: 800px) { 
+   flex-direction: column;
+   height: 500px;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 0.5rem 50px;
+    }
+    @media only screen and (max-width: 1024px) { 
+      flex-shrink: 0 !important;
+       }
+}
+
+.menu-menu-2-container {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    li {
+      text-transform: uppercase;
+      margin-top: 1rem;
+      font-family: $din;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.social-media-icons-container {
+  display: flex;
+  justify-content: space-between;
+  a {
+    cursor: pointer;
+  }
+   img {
+     margin-right: 1rem;
+     height: 1.3rem;
+   }
+}
+
+.contact-info-container {
+  &__tel {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+}
+
+.footer-logo {
+  height: 6rem;
+}
