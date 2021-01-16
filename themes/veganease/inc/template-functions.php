@@ -35,3 +35,64 @@ function veganease_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'veganease_pingback_header' );
+
+//gutenberg blocks
+function enhance_wellness_journey() {
+	
+	// check function exists
+	if( function_exists('acf_register_block') ) {
+		
+		// register a portfolio item block
+		acf_register_block(array(
+			'name'				=> 'enhance-wellness-journey',
+			'title'				=> __('Enhance Wellness Journey'),
+			'description'		=> __('A custom block for Enhance Wellness Journey.'),
+			'render_template'	=> 'template-parts/blocks/enhance-wellness-journey.php',
+			'category'			=> 'layout',
+			'icon'				=> 'smiley',
+			'keywords'			=> array( 'enhance wellness' ),
+		));
+	}
+}
+
+add_action('acf/init', 'enhance_wellness_journey');
+
+function catering_services() {
+	
+	// check function exists
+	if( function_exists('acf_register_block') ) {
+		
+		// register a portfolio item block
+		acf_register_block(array(
+			'name'				=> 'catering-services',
+			'title'				=> __('Catering Services'),
+			'description'		=> __('A custom block for Catering Serbices.'),
+			'render_template'	=> 'template-parts/blocks/catering-services.php',
+			'category'			=> 'layout',
+			'icon'				=> 'food',
+			'keywords'			=> array( 'catering service services' ),
+		));
+	}
+}
+
+add_action('acf/init', 'catering_services');
+
+function coaching_services() {
+	
+	// check function exists
+	if( function_exists('acf_register_block') ) {
+		
+		// register a portfolio item block
+		acf_register_block(array(
+			'name'				=> 'coaching-services',
+			'title'				=> __('Coaching Services'),
+			'description'		=> __('A custom block for Coaching Serbices.'),
+			'render_template'	=> 'template-parts/blocks/coaching-services.php',
+			'category'			=> 'layout',
+			'icon'				=> 'tickets',
+			'keywords'			=> array( 'coaching service services' ),
+		));
+	}
+}
+
+add_action('acf/init', 'coaching_services');

@@ -25,8 +25,8 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-
 	<header id="masthead" class="site-header">
+	<img class="header-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Veganease LLC Logo Icon"/> 
 		<nav id="site-navigation" class="main-navigation">
 
 			<?php
@@ -53,7 +53,6 @@
   <a class="login-btn" style="border:none;" href="<?php echo wp_login_url();?>"><li class="header-right-menu__item"></li>Log In</a>
 <a class="login-btn" style="border:none" href="<?php echo site_url('/wp-login.php?action=register');?>"><li class="header-right-menu__item"></li>Register</a>
 <?php }; ?>
-
 
    <a style="border:none;" href="<?php echo wc_get_cart_url(); ?>">
    <li class="header-right-menu__item"></li><img class="shopping-bag" src="<?php echo get_template_directory_uri(); ?>/img/shopping-bag.svg"/><span class="cart_items_num"><?php echo sprintf ( _n( '%d ', '%d ', WC()->cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?></span></a>
@@ -105,21 +104,19 @@
   <button type="submit" name="submit" value="submit"></button>
 </form>
 
-
 		</nav><!-- #site-navigation -->
 </div> <!-- mobile menu container -->
 </div> <!-- mobile margins -->
 </div> <!-- menu overlay container -->
 
-
-
-
 <!-- mobile menu -->
 
-
-
-
-
-				
+<!-- <div class="newsletter-popup">
+<img class="close-btn"  alt="Close Button Icon"/>
+<h1>Subscribe to our newsletter</h1>
+<form class="newsletter-popup__form" action="">
+<input type="email" class="" placeholder="Enter your email address"/>
+<button>Sign Up</button>
+</form>
+</div> -->
 	</header><!-- #masthead -->
-

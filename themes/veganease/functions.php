@@ -114,9 +114,6 @@ add_action( 'after_setup_theme', 'veganease_setup' );
  * @global int $content_width
  */
 
-
-
-
 function veganease_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'veganease_content_width', 640 );
 }
@@ -227,31 +224,16 @@ function custom_login_stylesheet() {
 }
 add_action( 'login_enqueue_scripts', 'custom_login_stylesheet' );
 
-
 function custom_login_css() {
     wp_enqueue_style('login-styles', get_template_directory_uri() . '/login/login-styles.css');
 }
 add_action('login_enqueue_scripts', 'custom_login_css');
 
-
 //POST THUMBNAIL FUNCTION 
-add_theme_support( 'post-thumbnails , full' ); ?>
-
-
-<?php /** 
- * Override 'woocommerce_content' function
- */
+add_theme_support( 'post-thumbnails , full' );
 
 if ( ! function_exists( 'woocommerce_content' ) ) {
 
-/**
- * Output WooCommerce content.
- *
- * This function is only used in the optional 'woocommerce.php' template.
- * which people can add to their themes to add basic woocommerce support.
- * without hooks or modifying core templates.
- *
- */
 function woocommerce_content() {
 
     if ( is_singular( 'product' ) ) {
@@ -309,3 +291,15 @@ function woocommerce_content() {
     }
   }
 }
+
+if( function_exists('acf_add_options_page') ) {
+	acf_add_options_page();
+}
+
+/** 
+ * Enables the HTTP Strict Transport Security (HSTS) header in WordPress. 
+ */
+function tg_enable_strict_transport_security_hsts_header_wordpress() {
+    header( 'Strict-Transport-Security: max-age=10886400' );
+}
+add_action( 'send_headers', 'tg_enable_strict_transport_security_hsts_header_wordpress' );

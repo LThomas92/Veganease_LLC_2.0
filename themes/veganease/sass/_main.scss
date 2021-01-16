@@ -9,6 +9,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 * {
@@ -17,12 +18,16 @@ body {
   padding: 0;
 }
 
-main {
-  flex: 1 0 auto;
+footer {
+  margin-top: auto;
 }
 
-footer {
-  flex-shrink: 0;
+ul {
+  list-style: none;
+  li {
+    margin: 0.3rem 0;
+    font-family: $poppins;
+  }
 }
 
 a {

@@ -86,19 +86,6 @@ jQuery(document).ready(function () {
     jQuery('.close-btn').show();
   });
 
-  jQuery('.single-slick-container').slick({
-    dots: true,
-    arrows: false,
-    infinite: false,
-    slidesToShow: 1,
-    autoplay: true,
-    autoPlaySpeed: 2000,
-    fade: true,
-    cssEase: 'linear'
-    // prevArrow: jQuery('.slick-prev'),
-    // nextArrow: jQuery('.slick-next')
-  });
-
   jQuery('.close-btn').hide();
   jQuery('.hamburger-menu').click(function () {
     jQuery('.menu-overlay-container').show();
@@ -110,6 +97,20 @@ jQuery(document).ready(function () {
   jQuery('.close-btn').click(function () {
     jQuery('.menu-overlay-container').hide();
   });
+});
+
+jQuery('.click-more-details').click(function () {
+  jQuery('.enhance-wellness-journey__vegan-meal-container').css('opacity', '1');
+  jQuery('.click-more-details').hide();
+});
+
+jQuery('.more-info').click(function () {
+  jQuery('.coaching-services__products').css('opacity', '1');
+  jQuery('.more-info').hide();
+});
+
+jQuery('.newsletter-popup .close-btn').click(function () {
+  jQuery('.newsletter-popup').hide();
 });
 
 /***/ })
