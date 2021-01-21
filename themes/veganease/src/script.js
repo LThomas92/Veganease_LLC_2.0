@@ -31,4 +31,14 @@ jQuery('.newsletter-popup .close-btn').click(function() {
   jQuery('.newsletter-popup').hide();
 });
 
+jQuery('.emaillist').prepend('<h1 class="join-newsletter-title">Subscribe to stay updated!</h1>');
 
+jQuery(window).load(function() {
+  setTimeout(function() {
+    jQuery('.overlay-newsletter').addClass('active');
+  }, 4000);
+});
+
+jQuery('.join-newsletter-title').click(function() {
+  jQuery('#email-subscribers-form-1').fadeOut();
+})

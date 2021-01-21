@@ -87,3 +87,97 @@ margin: 2rem auto;
     font-family: $poppins;
     line-height: 28px;
 }
+
+#email-subscribers-form-1 {
+    background-color: $coral;
+    padding: 2rem 3rem;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 2px;
+}
+
+.emaillist form label{
+    color: $white;
+}
+
+.emaillist form input[type="text"], input[type="email"]{
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.emaillist form input[type="email"] {
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+}
+
+.emaillist form input[name="name"] {
+    margin-top: 0.7rem;
+    margin-bottom: 0.6;
+}
+
+.emaillist form input[type="submit"] {
+    background-color: $white;
+    color: $black;
+    border: none;
+    outline: none;
+    padding: 1rem 1.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    &:hover {
+        background-color: $black;
+        color: $white;
+        transition: 300ms;
+    }
+}
+
+.join-newsletter-title {
+    color: $white;
+    font-family: $poppins;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: '';
+        background-image: url('../img/close-white.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 1rem;
+        height: 1rem;
+        display: block;
+        cursor: pointer;
+        top: 0px;
+        right: 0;
+    }
+}
+
+.es_subscription_message.success {
+    color: $white;
+    font-family: $poppins;
+}
+
+.overlay-newsletter {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow-y: auto;
+    z-index: 10;
+    position: absolute;
+    top: -400px;
+    left: 0;
+    transition: transform 5s $bezier, top 4s, opacity 3s $bezier;
+    transform: translateY(-100%);
+ 
+}
+
+.active {
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+

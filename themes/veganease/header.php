@@ -111,12 +111,5 @@
 
 <!-- mobile menu -->
 
-<!-- <div class="newsletter-popup">
-<img class="close-btn"  alt="Close Button Icon"/>
-<h1>Subscribe to our newsletter</h1>
-<form class="newsletter-popup__form" action="">
-<input type="email" class="" placeholder="Enter your email address"/>
-<button>Sign Up</button>
-</form>
-</div> -->
+
 	</header><!-- #masthead -->

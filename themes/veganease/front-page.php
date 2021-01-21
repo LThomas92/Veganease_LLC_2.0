@@ -11,9 +11,15 @@
  *
  * @package Veganease
  */
+ 
+get_header(); ?>
 
-get_header();
-global $product; 
+<div class="overlay-newsletter">
+<?php echo get_sidebar(); ?>
+</div> <!-- overlay newsletter -->
+
+
+<?php global $product; 
 $bannerImage = get_field('homepage_banner_image');
 $mainContentTitle = get_field('main_content_title');
 $orderDeliveryInfo = get_field('order_delivery', 'option');
