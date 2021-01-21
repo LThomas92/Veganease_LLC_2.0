@@ -95,6 +95,9 @@ margin: 2rem auto;
     margin: 0 auto;
     display: block;
     border-radius: 2px;
+    @media only screen and (max-width: 800px) {
+        width: 90%;
+     }
 }
 
 .emaillist form label{
@@ -141,6 +144,9 @@ margin: 2rem auto;
     text-align: center;
     margin-bottom: 1rem;
     position: relative;
+    @media only screen and (max-width: 800px) {
+        font-size: 0.7rem;
+     }
     &::before {
         position: absolute;
         content: '';
@@ -153,6 +159,9 @@ margin: 2rem auto;
         cursor: pointer;
         top: 0px;
         right: 0;
+        @media only screen and (max-width: 800px) {
+            height: 0.9rem;
+         }
     }
 }
 
